@@ -151,5 +151,5 @@ $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Voliteľne môžete zadať názov cron úlohy, ktorá sa má spustiť.',
 	'CLI_HELP_USER_ACTIVATE'		=> 'Aktivovať alebo deaktivovať účet pomocou príznaku <info>--deactivate</info>. Pre možnosť voliteľne odoslať užívateľovi informačný email o aktivácii účtu, použite príznak <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> '<info>%command.name%</info> príkaz pridá nového užívateľa: Ak bude tento príkaz odoslaný bez príznaku, budete vyzvaný k zadaniu príznaku. Pre možnosť voliteľne odoslať novému užívateľovi informačný email, použite príznak <info>--send-email</info>.',
-	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean usernames will check all stored usernames and ensure clean versions are also stored. Cleaned usernames are a case insensitive form, NFC normalized and transformed to ASCII.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Prečistenie užívateľských mien skontroluje všetky uložené užívateľské mená a uistí sa, že tie správne sú uložené. Očistené užívateľské mená sú vo formáte bez rozlíšenia malých a veľkých znakov, NFC sú normalizované a transformované do ASCII.',
 ));
