@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_CRON_LIST'			=> 'Zobrazí zoznam pripravených a nepripravených úloh pre cron.',
 	'CLI_DESCRIPTION_CRON_RUN'			=> 'Spustí všetky pripravené úlohy pre cron.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Názov úlohy, ktorá má byť spustená',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Názov cron úlohy, ktorá má byť spustená',
 	'CLI_DESCRIPTION_DB_LIST'			=> 'Zobraziť všetky nainštalované a dostupné migrácie.',
 	'CLI_DESCRIPTION_DB_MIGRATE'			=> 'Aktualizuje databázu aplikovaním migrácií.',
 	'CLI_DESCRIPTION_DB_REVERT'			=> 'Obnoví migráciu',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Voliteľne môžete zadať názov cron úlohy, ktorá sa má spustiť.',
-	'CLI_HELP_USER_ACTIVATE'		=> 'Activate a user account, or deactivate an account using the <info>--deactivate</info> option. To optionally send an activation email to the user, use the <info>--send-email</info> option.',
-	'CLI_HELP_USER_ADD'			=> 'The <info>%command.name%</info> command adds a new user: If this command is run without options, you will be prompted to enter them. To optionally send an email to the new user, use the <info>--send-email</info> option.',
+	'CLI_HELP_USER_ACTIVATE'		=> 'Aktivovať alebo deaktivovať účet pomocou príznaku <info>--deactivate</info>. Pre možnosť voliteľne odoslať užívateľovi informačný email o aktivácii účtu, použite príznak <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> '<info>%command.name%</info> príkaz pridá nového užívateľa: Ak bude tento príkaz odoslaný bez príznaku, budete vyzvaný k zadaniu príznaku. Pre možnosť voliteľne odoslať novému užívateľovi informačný email, použite príznak <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean usernames will check all stored usernames and ensure clean versions are also stored. Cleaned usernames are a case insensitive form, NFC normalized and transformed to ASCII.',
 ));
