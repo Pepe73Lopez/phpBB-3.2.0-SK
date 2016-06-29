@@ -3,13 +3,13 @@ Lokalizácia phpBB 3.2.0 do slovenského jazyka<br />
 
 <h3>Stav prekladu 3.2.0:</h3>
 
-1. Užívateľské rozhranie - začaté
+1. Súbory v koreňovom adresári SK- začaté
 
-2. Šablóny e-mailovej komunikácie portálu s užívateľmi - nezačaté
+2. ACP adresár - nezačaté
 
-3. ACP - nezačaté
+3. Emailová komunikácia - nezačaté
 
-4. Sprievodca inštaláciou - nezačaté
+4. Help adresár - nezačaté
 
 Niektoré zásady použité v úvodnom branchi:
 
