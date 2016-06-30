@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'			=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	'SUPPORT_BODY'			=> 'Zo strany vývojárov je poskytovaná plná podpora bez poplatkov. Podpora zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>otázky technického typu</li><li>akékoľvek problémy spojené s potenciálnym výskytom chýb</li><li>prechod z RC (Release Candidate) verzií na stabilné verzie</li><li>konverzia z phpBB 2.0.x na phpBB3</li><li>konverzia z iných platforiem, softvérových riešení diskusných fór na platformu phpBB3 (ak chcete získať viac informácií prosím navštívte nasledovné <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fórum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Všeobecná verejná licencia (GPL)',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 	<p>Rozpoznané budú len podporované databázy, ak sa nachádzajú na vašom serveri.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'Prepnúť na <a href="%1$s">Administrátorský panel</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB už je nainštalované.',
 	'INSTALL_PHPBB_NOT_INSTALLED'		=> 'phpBB zatiaľ nie je nainštalované.'
@@ -110,15 +110,15 @@ $lang = array_merge($lang, array(
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Je potrebná funkcia PHP getimagesize()',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'		=> 'Aby phpBB pracovalo správne je potrebné, aby bola povolená funkcia getimagesize.',
 	'PCRE_UTF_SUPPORT'					=> 'Podpora PCRE UTF-8',
-	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
-	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
-	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
-	'PHP_SUPPORTED_DB'					=> 'Supported databases',
+	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nebude pracovať, ak vaša PHP inštalácia nebude skompilovaná s podporou UTF-8 v rozšírení PCRE.',
+	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
+	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne je potrebné, aby váš server podporoval rozšírenie PHP JSON.',
+	'PHP_SUPPORTED_DB'					=> 'Podporované databázy',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
 
-	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
+	'RETEST_REQUIREMENTS'	=> 'Znovu otestovať požiadavky',
 
-	'STAGE_REQUIREMENTS'	=> 'Check requirements'
+	'STAGE_REQUIREMENTS'	=> 'Otestovať požiadavky'
 ));
 
 // General error messages
@@ -166,27 +166,27 @@ $lang = array_merge($lang, array(
 	//
 	// Database data
 	//
-	'STAGE_DATABASE'	=> 'Database settings',
+	'STAGE_DATABASE'	=> 'Databázové nastavenia',
 
 	// Form labels
-	'DB_CONFIG'				=> 'Database configuration',
-	'DBMS'					=> 'Database type',
-	'DB_HOST'				=> 'Database server hostname or DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN stands for Data Source Name and is relevant only for ODBC installs. On PostgreSQL, use localhost to connect to the local server via UNIX domain socket and 127.0.0.1 to connect via TCP. For SQLite, enter the full path to your database file.',
-	'DB_PORT'				=> 'Database server port',
-	'DB_PORT_EXPLAIN'		=> 'Leave this blank unless you know the server operates on a non-standard port.',
-	'DB_PASSWORD'			=> 'Database password',
-	'DB_NAME'				=> 'Database name',
-	'DB_USERNAME'			=> 'Database username',
-	'TABLE_PREFIX'			=> 'Prefix for tables in database',
-	'TABLE_PREFIX_EXPLAIN'	=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
+	'DB_CONFIG'			=> 'Konfigurácia databázy',
+	'DBMS'				=> 'Typ databázy',
+	'DB_HOST'				=> 'Databázový server alebo cesta k súboru DSN',
+	'DB_HOST_EXPLAIN'		=> 'DSN je Data Source Name a je vyžadovaný len pre ODBC riešenia. Pre PostgreSQL, použite "localhost" k pripojeniu na lokálny server prostredníctvom platformy UNIX a "127.0.0.1" k pripojeniu prostredníctvom TCP. Pre SQLite, uveďte úplnú cestu k súboru DSN.',
+	'DB_PORT'				=> 'Port',
+	'DB_PORT_EXPLAIN'		=> 'Ponechajte prázdne. Vyplňte, len ak viete, že databázový server používa neštandartné číslo portu.',
+	'DB_PASSWORD'			=> 'Heslo pre prístup k vytvorenej databáze',
+	'DB_NAME'				=> 'Názov vytvorenej databázy',
+	'DB_USERNAME'			=> 'Prihlasovacie meno pre prístup k vytvorenej databáze',
+	'TABLE_PREFIX'			=> 'Prefix tabuliek phpBB v databáze',
+	'TABLE_PREFIX_EXPLAIN'	=> 'Prefix musí začínať písmenom a celý môže obsahovať len písmená, čísla, prípadne podtržník.',
 
 	// Database options
 	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
-	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
-	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
+	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ prostredníctvom ODBC',
+	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ natívne ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
+	'DB_OPTION_MYSQLI'		=> 'MySQL s rozšírením MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE'		=> 'SQLite 2',
