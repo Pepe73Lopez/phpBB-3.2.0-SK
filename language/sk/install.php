@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Úvod',
-	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie "open source" riešenie pre diskusné fóra na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako ako jeho predchodcovia, phpBB3 je bohatý, užívateľsky prívetivé a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne, a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný systém vás prevedie inštaláciou phpBB3, aktualizáciu na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako prevod do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Pre viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
+	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie softwarové riešenie pre diskusné fóra s otvoreným zdrojovým kódom na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako, ako jeho predchodcovia, phpBB3 je bohatý na funkcie, užívateľsky prívetivý a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný sprievodca vás prevedie inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako aj prechodom do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Ak chcete získať viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
@@ -55,61 +55,61 @@ $lang = array_merge($lang, array(
 	'LICENSE_TITLE'		=> 'Všeobecná verejná licencia (GPL)',
 
 	// Install page
-	'INSTALL_INTRO'		=> 'Vitajte v inštalácii',
-	'INSTALL_INTRO_BODY'	=> 'With this option, it is possible to install phpBB3 onto your server.</p><p>In order to proceed, you will need your database settings. If you do not know your database settings, please contact your host and ask for them. You will not be able to continue without them. You need:</p>
+	'INSTALL_INTRO'		=> 'Sprievodca inštaláciou',
+	'INSTALL_INTRO_BODY'	=> 'V nasledujúcich krokoch nainštalujete phpBB3 na váš server.</p><p>Pred začatím inštalácie sa uistite, že máte niektoré informácie o databáze a jej nastaveniach. Ak ich neviete, kontaktujte prosím vášho poskytovateľa serverových služieb a vyžiadajte si ich. Bez týchto informácií nebude možné pokračovať.<br /><br /> Budete potrebovať:</p>
 
 	<ul>
-		<li>The Database Type - the database you will be using.</li>
-		<li>The Database server hostname or DSN - the address of the database server.</li>
-		<li>The Database server port - the port of the database server (most of the time this is not needed).</li>
-		<li>The Database name - the name of the database on the server.</li>
-		<li>The Database username and Database password - the login data to access the database.</li>
+		<li>Typ databázy - typ databázového riešenia, ktoré poskytuje váš server.</li>
+		<li>Adresu databázového servera - hostname, DSN súbor alebo IP adresu databázového servera.</li>
+		<li>Port databázového servera - port adresy databázového servera (vo väčšine prípadov nie je potrebný).</li>
+		<li>Meno databázy - Meno vytvorenej databázy, ku ktorej máte úplný prístup.</li>
+		<li>Prihlasovacie meno a heslo k databáze - vyžaduje sa na prihlásenie k získaniu prístupu k databáze.</li>
 	</ul>
 
-	<p><strong>Note:</strong> if you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</p>
+	<p><strong>Poznámka:</strong> ak použijete SQLite, mali by ste v poli "DSN" uviesť úplnú cestu k súboru DSN a ponechať polia "Prihlasovacie meno" a "Heslo" k databáze prázdne (v závislosti na obsahu súboru DSN). Z dôvodu bezpečnosti vašich dát by ste sa mali uistiť, že súbor DSN s prístupovými informáciami nebude uložený na verejne prístupnom mieste.</p>
 
-	<p>phpBB3 supports the following databases:</p>
+	<p>phpBB3 podporuje nasledovné typy databáz:</p>
 	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
+		<li>MySQL 3.23 alebo vyššie (vrátane MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
-		<li>MS SQL Server 2005 or above (native)</li>
+		<li>MS SQL Server 2000 alebo vyššie (priamo alebo prostredníctvom ODBC)</li>
+		<li>MS SQL Server 2005 alebo vyššie (natívne)</li>
 		<li>Oracle</li>
 	</ul>
 
-	<p>Only those databases supported on your server will be displayed.',
+	<p>Rozpoznané budú len podporované databázy, ak sa nachádzajú na vašom serveri.',
 
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
 
-	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'		=> 'phpBB is not installed yet.'
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB už je nainštalované.',
+	'INSTALL_PHPBB_NOT_INSTALLED'		=> 'phpBB zatiaľ nie je nainštalované.'
 ));
 
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'File does not exist',
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to exist.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s file exist for a better forum user experience.',
-	'FILE_NOT_WRITABLE'						=> 'File is not writable',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to be writable.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s file be writable for a better forum user experience.',
+	'FILE_NOT_EXISTS'						=> 'Súbor neexistuje',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'K inštalácii phpBB je potrebný súbor %1$s.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'			=> 'Odporúčame, aby existoval súbor %1$s.',
+	'FILE_NOT_WRITABLE'						=> 'Súbor je chránený proti zápisu',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana súboru %1$s proti zápisu.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'		=> 'Odporúčame, aby bola odstránená ochrana súboru %1$s proti zápisu.',
 
-	'DIRECTORY_NOT_EXISTS'						=> 'Directory does not exist',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s directory needs to exist.',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s directory exist for a better forum user experience.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'Directory is not writable',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'To be able to install phpBB the %1$s directory needs to be writable.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s directory be writable for a better forum user experience.',
+	'DIRECTORY_NOT_EXISTS'					=> 'Adresár nie je vytvorený',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'			=> 'K inštalácii phpBB je potrebné, aby bol vytvorený adresár %1$s.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Odporúčame, aby bol vytvorený adresár %1$s.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Adresár je chránený proti zápisu',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana adresára %1$s proti zápisu.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Odporúčame, aby bola odstránená ochrana adresára %1$s proti zápisu.',
 
 	// Server requirements
-	'PHP_VERSION_REQD'					=> 'PHP version',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 5.4.0 or higher.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() function is required',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'In order for phpBB to function correctly, the getimagesize function needs to be available.',
-	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 support',
+	'PHP_VERSION_REQD'					=> 'Verzia PHP',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje PHP verzie 5.4.0 alebo vyššej.',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Je potrebná funkcia PHP getimagesize()',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'		=> 'Aby phpBB pracovalo správne je potrebné, aby bola povolená funkcia getimagesize.',
+	'PCRE_UTF_SUPPORT'					=> 'Podpora PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
