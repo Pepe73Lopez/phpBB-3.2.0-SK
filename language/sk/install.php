@@ -38,24 +38,24 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Installation Panel',
-	'SELECT_LANG'	=> 'Select language',
+	'INSTALL_PANEL'	=> 'Inštalačný panel',
+	'SELECT_LANG'		=> 'Vyberte jazyk',
 
-	'STAGE_INSTALL'	=> 'Installing phpBB',
+	'STAGE_INSTALL'	=> 'Inštalácia phpBB',
 
 	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introduction',
-	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
+	'INTRODUCTION_TITLE'	=> 'Úvod',
+	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie "open source" riešenie pre diskusné fóra na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako ako jeho predchodcovia, phpBB3 je bohatý, užívateľsky prívetivé a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne, a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný systém vás prevedie inštaláciou phpBB3, aktualizáciu na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako prevod do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Pre viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
 
 	// Support page
-	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	'SUPPORT_TITLE'		=> 'Podpora',
+	'SUPPORT_BODY'			=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
 
 	// License
-	'LICENSE_TITLE'		=> 'General Public License',
+	'LICENSE_TITLE'		=> 'Všeobecná verejná licencia (GPL)',
 
 	// Install page
-	'INSTALL_INTRO'			=> 'Welcome to Installation',
+	'INSTALL_INTRO'		=> 'Vitajte v inštalácii',
 	'INSTALL_INTRO_BODY'	=> 'With this option, it is possible to install phpBB3 onto your server.</p><p>In order to proceed, you will need your database settings. If you do not know your database settings, please contact your host and ask for them. You will not be able to continue without them. You need:</p>
 
 	<ul>
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.'
+	'INSTALL_PHPBB_NOT_INSTALLED'		=> 'phpBB is not installed yet.'
 ));
 
 // Requirements translation
