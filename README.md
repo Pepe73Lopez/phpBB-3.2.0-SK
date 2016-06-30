@@ -3,7 +3,7 @@ Lokalizácia phpBB 3.2.0 do slovenského jazyka<br />
 
 <h3>Stav prekladu 3.2.0:</h3>
 
-1. Súbory v koreňovom adresári SK- <b>začaté</b> (15/20)
+1. Súbory v koreňovom adresári SK- <b>začaté</b> (17/20)
 
 2. ACP adresár - nezačaté
 
