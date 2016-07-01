@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'		=> 'Nastavenie parametrov inštalácie',
+	'STAGE_OBTAIN_DATA'		=> 'Inštalačné nastavenia',
 
 	//
 	// Admin data

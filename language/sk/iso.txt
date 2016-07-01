@@ -1,3 +1,3 @@
 Slovak
-Slovenčina
+Slovenský
 phpBB3.sk
