@@ -3,11 +3,7 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
-<<<<<<< HEAD
 * @author PepeLopez <Pepe73Lopez@gmail.com>
-=======
-* @author phpBB3.sk, PepeLopez <Pepe73Lopez@gmail.com>
->>>>>>> origin/master
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -205,7 +201,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOADED'			=> 'Downloaded',
 	'DOWNLOADING_FILE'		=> 'Downloading file',
 	'DOWNLOAD_COUNTS'		=> array(
-		0	=> 'Zatiaľ nestiahnuté',
+		0 => 'Zatiaľ nestiahnuté',
 		1 => 'Stiahnuté %d x',
 		2 => 'Stiahnuté %d x',
 		3 => 'Stiahnuté %d x',
