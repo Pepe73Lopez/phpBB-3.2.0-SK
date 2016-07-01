@@ -322,7 +322,7 @@ $lang = array_merge($lang, array(
 // CLI messages
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Inštalácia phpBB',
-	'CLI_UPDATE_BOARD'				=> 'Prechod na vyššiu verziu phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Aktualizácia phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Ukázať konfiguráciu, ktorá bude použitá',
 	'CLI_INSTALL_VALIDATE_CONFIG'		=> 'Overiť konfiguračný súbor',
 	'CLI_CONFIG_FILE'				=> 'Použiť konfiguračný súbor',
@@ -334,8 +334,8 @@ $lang = array_merge($lang, array(
 
 // Common updater messages
 $lang = array_merge($lang, array(
-	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'		=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_INSTALLATION'			=> 'Prechod zo súčasnej na vyššiu verziu phpBB',
+	'UPDATE_INSTALLATION_EXPLAIN'		=> 'Pomocou tohto sprievodcu je možné prejsť z aktuálnej verzie, ktorú používate na vyššiu verziu phpBB.<br />Počas procesu aktualizácie bude skontrolovaná integrita všetkých súborov. Pred samotnou aktualizáciou môžete vidieť výpis všetkých nájdených rozdielov.<br /><br />Aktualizácia súboru môže byť vykonaná dvomi spôsobmi.</p><h2>Ručná aktualizácia</h2><p>Pomocou tohto typu aktualizácie With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Release announcement</h1>
@@ -365,10 +365,10 @@ $lang = array_merge($lang, array(
 // Updater forms
 $lang = array_merge($lang, array(
 	// Updater types
-	'UPDATE_TYPE'			=> 'Type of update to run',
+	'UPDATE_TYPE'			=> 'Typ aktualizácie',
 
-	'UPDATE_TYPE_ALL'		=> 'Update filesystem and database',
-	'UPDATE_TYPE_DB_ONLY'	=> 'Update database only',
+	'UPDATE_TYPE_ALL'		=> 'Aktualizovať súbory a databázu',
+	'UPDATE_TYPE_DB_ONLY'	=> 'Aktualizovať len databázu',
 
 	// File updater methods
 	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods',
@@ -472,7 +472,7 @@ $lang = array_merge($lang, array(
 	// Conversion in progress
 	'CONTINUE_CONVERT'			=> 'Continue conversion',
 	'CONTINUE_CONVERT_BODY'		=> 'A previous conversion attempt has been determined. You are now able to choose between starting a new conversion or continuing the conversion.',
-	'CONVERT_NEW_CONVERSION'	=> 'New conversion',
+	'CONVERT_NEW_CONVERSION'		=> 'New conversion',
 	'CONTINUE_OLD_CONVERSION'	=> 'Continue previously started conversion',
 
 	// Start conversion
