@@ -3,7 +3,7 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
-* @authors phpBB3.sk, PepeLopez, Fonzi
+* @authors phpBB3.sk, PepeLopez <Pepe73Lopez@gmail.com>
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
