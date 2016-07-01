@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	// Install database
 	'TASK_ADD_CONFIG_SETTINGS'			=> 'Pridanie konfiguračných nastavení',
 	'TASK_ADD_DEFAULT_DATA'				=> 'Pridanie východiskových nastavení pre databázu',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'		=> 'Creating database schema file',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'		=> 'Vytvorenie súboru so schémou databázy',
 	'TASK_SETUP_DATABASE'				=> 'Nastavenie databázy',
 	'TASK_CREATE_TABLES'				=> 'Vytvorenie tabuliek',
 
@@ -295,41 +295,41 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Inštalácia modulov',
 
 	// Install finish tasks
-	'TASK_NOTIFY_USER'			=> 'Odoslanie nitifikačného emailu',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
+	'TASK_NOTIFY_USER'			=> 'Odoslanie notifikačného emailu',
+	'TASK_POPULATE_MIGRATIONS'	=> 'Uskutočnenie presunov',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'The installer has finished successfully',
+	'INSTALLER_FINISHED'	=> 'Inštalácia úspešne ukončená',
 ));
 
 // Installer's general messages
 $lang = array_merge($lang, array(
-	'MODULE_NOT_FOUND'				=> 'Module not found',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.',
+	'MODULE_NOT_FOUND'				=> 'Modul nenájdený',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Modul nebol nájdený pretože služba, %s, nie je definovaná.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
+	'TASK_NOT_FOUND'				=> 'Úloha nenájdená',
+	'TASK_NOT_FOUND_DESCRIPTION'		=> 'Úloha nebola nájdená pretože služba, %s, nie je definovaná.',
 
-	'SKIP_MODULE'	=> 'Skip “%s” module',
-	'SKIP_TASK'		=> 'Skip “%s” task',
+	'SKIP_MODULE'		=> 'Vynechať “%s” modul',
+	'SKIP_TASK'		=> 'Vynechať “%s” úlohu',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
-	'TASK_CLASS_NOT_FOUND'			=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Všetky služby inštalátora musia začínať textom “installer”',
+	'TASK_CLASS_NOT_FOUND'			=> 'Definícia služieb inštalátora je nesprávna. Bol odovzdaný názov služby “%1$s” , očakávaný názov je “%2$s”. Ak sa chcete dozvedieť viac informácií, preštudujte si prosím dokumentáciu k task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Konfiguračný súbor inštalátora je chránený proti zápisu.',
 ));
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Install phpBB',
-	'CLI_UPDATE_BOARD'				=> 'Update phpBB',
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
-	'CLI_INSTALL_VALIDATE_CONFIG'		=> 'Validate a configuration file',
-	'CLI_CONFIG_FILE'				=> 'Config file to use',
-	'MISSING_FILE'					=> 'Unable to access file %1$s',
-	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
-	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
-	'CONFIGURATION_VALID'			=> 'The configuration file is valid',
+	'CLI_INSTALL_BOARD'				=> 'Inštalácia phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Prechod na vyššiu verziu phpBB',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Ukázať konfiguráciu, ktorá bude použitá',
+	'CLI_INSTALL_VALIDATE_CONFIG'		=> 'Overiť konfiguračný súbor',
+	'CLI_CONFIG_FILE'				=> 'Použiť konfiguračný súbor',
+	'MISSING_FILE'					=> 'Nie je možné získať prístup k súboru %1$s',
+	'MISSING_DATA'					=> 'Konfiguračný súbor obsahuje neplatné nastavenia konfigurácie alebo v ňom chýbajú potrebné údaje.',
+	'INVALID_YAML_FILE'				=> 'Nebolo možné rozpoznať obsah súboru YAML %1$s',
+	'CONFIGURATION_VALID'			=> 'Konfiguračný súbor je v poriadku',
 ));
 
 // Common updater messages
