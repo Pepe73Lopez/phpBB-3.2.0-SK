@@ -3,7 +3,7 @@
  *
  * This file is part of the phpBB Forum Software package.
  *
-* @author PepeLopez <Pepe73Lopez@gmail.com>
+ * @author PepeLopez <Pepe73Lopez@gmail.com>
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
@@ -237,36 +237,36 @@ $lang = array_merge($lang, array(
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrátor fóra',
 	'REPORT_WAREZ'				=> 'Príspevok obsahuje odkazy na nelegálny alebo pirátsky softvér.',
-	'REPORT_SPAM'				=> 'The reported post has the only purpose to advertise for a website or another product.',
-	'REPORT_OFF_TOPIC'			=> 'The reported post is off topic.',
-	'REPORT_OTHER'				=> 'The reported post does not fit into any other category, please use the further information field.',
+	'REPORT_SPAM'				=> 'Nahlásený príspevok má za účel propagovať inú webovú stránku alebo produkt.',
+	'REPORT_OFF_TOPIC'			=> 'Nahlásený príspevok nesúvisí s témou.',
+	'REPORT_OTHER'				=> 'Nahlásený príspevok nezapadá do žiadnej z kategórii, prosím vyplňte pole pre ďalšie informácie.',
 
-	'SMILIES_ARROW'				=> 'Arrow',
-	'SMILIES_CONFUSED'				=> 'Confused',
+	'SMILIES_ARROW'				=> 'Šípka',
+	'SMILIES_CONFUSED'				=> 'Zmätený',
 	'SMILIES_COOL'					=> 'Cool',
-	'SMILIES_CRYING'				=> 'Crying or Very Sad',
-	'SMILIES_EMARRASSED'			=> 'Embarrassed',
-	'SMILIES_EVIL'					=> 'Evil or Very Mad',
-	'SMILIES_EXCLAMATION'			=> 'Exclamation',
-	'SMILIES_GEEK'					=> 'Geek',
-	'SMILIES_IDEA'					=> 'Idea',
-	'SMILIES_LAUGHING'				=> 'Laughing',
-	'SMILIES_MAD'					=> 'Mad',
+	'SMILIES_CRYING'				=> 'Plač',
+	'SMILIES_EMARRASSED'			=> 'Hanblivý',
+	'SMILIES_EVIL'					=> 'Zlý',
+	'SMILIES_EXCLAMATION'			=> 'Výkričník',
+	'SMILIES_GEEK'					=> 'Týpek',
+	'SMILIES_IDEA'					=> 'Nápad',
+	'SMILIES_LAUGHING'				=> 'Smiech',
+	'SMILIES_MAD'					=> 'Nahnevaný',
 	'SMILIES_MR_GREEN'				=> 'Mr. Green',
-	'SMILIES_NEUTRAL'				=> 'Neutral',
-	'SMILIES_QUESTION'				=> 'Question',
-	'SMILIES_RAZZ'					=> 'Razz',
-	'SMILIES_ROLLING_EYES'			=> 'Rolling Eyes',
-	'SMILIES_SAD'					=> 'Sad',
-	'SMILIES_SHOCKED'				=> 'Shocked',
-	'SMILIES_SMILE'				=> 'Smile',
-	'SMILIES_SURPRISED'				=> 'Surprised',
-	'SMILIES_TWISTED_EVIL'			=> 'Twisted Evil',
-	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
-	'SMILIES_VERY_HAPPY'			=> 'Very Happy',
-	'SMILIES_WINK'					=> 'Wink',
+	'SMILIES_NEUTRAL'				=> 'Neutrálny',
+	'SMILIES_QUESTION'				=> 'Otáznik',
+	'SMILIES_RAZZ'					=> 'Vyplazený jazyk',
+	'SMILIES_ROLLING_EYES'			=> 'Gúľajúce oči',
+	'SMILIES_SAD'					=> 'Smutný',
+	'SMILIES_SHOCKED'				=> 'Šokovaný',
+	'SMILIES_SMILE'				=> 'Usmiaty',
+	'SMILIES_SURPRISED'				=> 'Prekvapený',
+	'SMILIES_TWISTED_EVIL'			=> 'Zvrátený',
+	'SMILIES_UBER_GEEK'				=> 'Bradatý týpek',
+	'SMILIES_VERY_HAPPY'			=> 'Šťastný',
+	'SMILIES_WINK'					=> 'Žmurk',
 
-	'TOPICS_TOPIC_TITLE'			=> 'Welcome to phpBB3',
+	'TOPICS_TOPIC_TITLE'			=> 'Vitajte v phpBB3',
 ));
 
 // Common navigation items' translation
@@ -280,22 +280,22 @@ $lang = array_merge($lang, array(
 // Task names
 $lang = array_merge($lang, array(
 	// Install filesystem
-	'TASK_CREATE_CONFIG_FILE'	=> 'Creating configuration file',
+	'TASK_CREATE_CONFIG_FILE'	=> 'Vytvorenie konfiguračného súboru',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'			=> 'Adding configuration settings',
-	'TASK_ADD_DEFAULT_DATA'				=> 'Adding default settings to the database',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Pridanie konfiguračných nastavení',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Pridanie východiskových nastavení pre databázu',
 	'TASK_CREATE_DATABASE_SCHEMA_FILE'		=> 'Creating database schema file',
-	'TASK_SETUP_DATABASE'				=> 'Setting up database',
-	'TASK_CREATE_TABLES'				=> 'Creating tables',
+	'TASK_SETUP_DATABASE'				=> 'Nastavenie databázy',
+	'TASK_CREATE_TABLES'				=> 'Vytvorenie tabuliek',
 
 	// Install data
-	'TASK_ADD_BOTS'		=> 'Registering bots',
-	'TASK_ADD_LANGUAGES'	=> 'Installing available languages',
-	'TASK_ADD_MODULES'		=> 'Installing modules',
+	'TASK_ADD_BOTS'		=> 'Registrácia robotov',
+	'TASK_ADD_LANGUAGES'	=> 'Inštalácia dostupných jazykov',
+	'TASK_ADD_MODULES'		=> 'Inštalácia modulov',
 
 	// Install finish tasks
-	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
+	'TASK_NOTIFY_USER'			=> 'Odoslanie nitifikačného emailu',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
 
 	// Installer general progress messages
