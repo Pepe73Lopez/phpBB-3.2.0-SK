@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Úvod',
-	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie softwarové riešenie pre diskusné fóra s otvoreným zdrojovým kódom na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako, ako jeho predchodcovia, phpBB3 je bohatý na funkcie, užívateľsky prívetivý a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný sprievodca vás prevedie inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako aj prechodom do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Ak chcete získať viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
+	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie softvérové riešenie pre diskusné fóra s otvoreným zdrojovým kódom na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako, ako jeho predchodcovia, phpBB3 je bohatý na funkcie, užívateľsky prívetivý a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný sprievodca vás prevedie inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako aj prechodom do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Ak chcete získať viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Znovu otestovať požiadavky',
 
-	'STAGE_REQUIREMENTS'	=> 'Otestovať požiadavky'
+	'STAGE_REQUIREMENTS'	=> 'Test požiadaviek'
 ));
 
 // General error messages
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'		=> 'Inštalačné nastavenia',
+	'STAGE_OBTAIN_DATA'		=> 'Základné nastavenia',
 
 	//
 	// Admin data
@@ -201,41 +201,41 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_CONNECT'		=> 'Nebolo možné sa pripojiť k databáze.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nepodarilo sa získať hlásenie o chybe.',
 	'INST_ERR_PREFIX'			=> 'Tabuľky so zadaným prefixom už existujú, vyberte inú alternatívu.',
-	'INST_ERR_DB_NO_MYSQLI'		=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
-	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
-	'INST_ERR_DB_NO_ORACLE'		=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
-	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
+	'INST_ERR_DB_NO_MYSQLI'		=> 'Verzia MySQL, ktorú máte nainštalovanú nie je kompatibilná s vami zvolenou “MySQL with MySQLi Extension”. Použite prosím možnosť “MySQL”.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'Verzia rozšírenia SQLite, ktoré máte nainštalované je príliš staré, vyžaduje sa najmenej verzia 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'		=> 'Verzia rozšírenia SQLite, ktoré máte nainštalované je príliš staré, vyžaduje sa najmenej verzia 3.6.15.',
+	'INST_ERR_DB_NO_ORACLE'		=> 'Verzia Oracle, ktorú máte nainštalovanú vyžaduje, aby ste nastavili parameter <var>NLS_CHARACTERSET</var> na hodnotu <var>UTF8</var>. Alebo je zmenu parametra možné vyriešiť updatovaním na verziu 9.2+.',
+	'INST_ERR_DB_NO_POSTGRES'		=> 'Databáza, ktorú ste zadali nemá kódovanie <var>UNICODE</var> alebo <var>UTF8</var>. Vytvorte najprv databázu s požadovaným kódovaním <var>UNICODE</var> alebo <var>UTF8</var>.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Schéma súborov má ochranu proti zápisu.',
 
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'E-mail configuration',
+	'EMAIL_CONFIG'	=> 'Nastavenie emailu',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'SERVER_CONFIG'			=> 'Server configuration',
-	'SCRIPT_PATH'				=> 'Script path',
-	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>.',
+	'SERVER_CONFIG'			=> 'Konfigurácia serveru',
+	'SCRIPT_PATH'				=> 'Cesta k skriptom',
+	'SCRIPT_PATH_EXPLAIN'		=> 'Cesta k súborom phpBB vyjadrená relatívne k doméne, napr. <samp>/phpBB3</samp>.',
 ));
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'Thanks, The Management',
-	'CONFIG_SITE_DESC'			=> 'A short text to describe your forum',
-	'CONFIG_SITENAME'			=> 'yourdomain.com',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Ďakujeme, Vývojári phpBB',
+	'CONFIG_SITE_DESC'			=> 'Krátky a výstižný popis vášho fóra',
+	'CONFIG_SITENAME'			=> 'vasa_domena.sk',
 
 	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
 
-	'FORUMS_FIRST_CATEGORY'		=> 'Your first category',
-	'FORUMS_TEST_FORUM_DESC'		=> 'Description of your first forum.',
-	'FORUMS_TEST_FORUM_TITLE'	=> 'Your first forum',
+	'FORUMS_FIRST_CATEGORY'		=> 'Vaša prvá kategória',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Popis vášho prvého fóra.',
+	'FORUMS_TEST_FORUM_TITLE'	=> 'Vaše prvé fórum',
 
-	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Admin',
-	'REPORT_WAREZ'				=> 'The post contains links to illegal or pirated software.',
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrátor fóra',
+	'REPORT_WAREZ'				=> 'Príspevok obsahuje odkazy na nelegálny alebo pirátsky softvér.',
 	'REPORT_SPAM'				=> 'The reported post has the only purpose to advertise for a website or another product.',
 	'REPORT_OFF_TOPIC'			=> 'The reported post is off topic.',
 	'REPORT_OTHER'				=> 'The reported post does not fit into any other category, please use the further information field.',
@@ -270,10 +270,10 @@ $lang = array_merge($lang, array(
 
 // Common navigation items' translation
 $lang = array_merge($lang, array(
-	'MENU_OVERVIEW'	=> 'Overview',
-	'MENU_INTRO'		=> 'Introduction',
-	'MENU_LICENSE'		=> 'License',
-	'MENU_SUPPORT'		=> 'Support',
+	'MENU_OVERVIEW'	=> 'Prehľad',
+	'MENU_INTRO'		=> 'Úvod',
+	'MENU_LICENSE'		=> 'Licencia',
+	'MENU_SUPPORT'		=> 'Podpora',
 ));
 
 // Task names

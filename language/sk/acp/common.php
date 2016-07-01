@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'GENERAL_SETTINGS'		=> 'General settings',
 	'GLOBAL_MASK'			=> 'Global permission mask',
 
-	'INSTALL'				=> 'Install',
+	'INSTALL'				=> 'Inštalovať',
 	'IP'					=> 'User IP',
 	'IP_HOSTNAME'			=> 'IP addresses or hostnames',
 
