@@ -229,11 +229,11 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'			=> 'Krátky a výstižný popis vášho fóra',
 	'CONFIG_SITENAME'			=> 'vasa_domena.sk',
 
-	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
+	'DEFAULT_INSTALL_POST'			=> 'Toto je automaticky vytvorený príklad znenia obsahu vášho príspevku a vyzerá to, že inštalácia bola úspešná a všetko funguje. Môžete tento príspevok odstrániť a pokračovať v nastavení vášho diskusného fóra. Počas inštalácie boli nastavené základné oprávnenia automaticky vytváranému prvému fóru a kategórii pre jednotlivé preddefinované skupiny užívateľov - administratorom, botom, globálnym moderátorom, hosťom, registrovaným užívateľom a registrovaným mladistvým užívateľom. Ak odstránite automaticky vytvorenú kategóriu a fórum, nezabudnite v budúcnosti novo vytvoreným kategóriám a fóram priradiť zodpovedajúce oprávnenia pre jednotlivé skupiny užívateľov. Odporúčame však premenovať automaticky vytvorenú kategóriu a fórum a pre novo vytvárané kategórie a fóra jednoducho okopírovať oprávnenia . Veľa šťastia pri používaní phpBB3!',
 
-	'FORUMS_FIRST_CATEGORY'		=> 'Vaša prvá kategória',
-	'FORUMS_TEST_FORUM_DESC'		=> 'Popis vášho prvého fóra.',
-	'FORUMS_TEST_FORUM_TITLE'	=> 'Vaše prvé fórum',
+	'FORUMS_FIRST_CATEGORY'		=> 'Automaticky vytvorená kategória',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Popis vášho automaticky vytvoreného fóra.',
+	'FORUMS_TEST_FORUM_TITLE'	=> 'Automaticky vytvorené fórum',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrátor fóra',
 	'REPORT_WAREZ'				=> 'Príspevok obsahuje odkazy na nelegálny alebo pirátsky softvér.',

@@ -45,5 +45,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Chýbajúca hodnota argumentu #%1$s: <strong>%3$s</strong> v triede <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Nebol špecifikovaný žiadny ovládač.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'		=> 'Pre ovládač nebola špecifikovaná žiadna metóda.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Služba pre ovládač "<strong>%s</strong>" nebola v ./config/services.yml definovaná.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Služba pre ovládač "<strong>%s</strong>" nebola v súbore ./config/services.yml definovaná.',
 ));
