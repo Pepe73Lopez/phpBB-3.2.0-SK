@@ -40,17 +40,17 @@ if (empty($lang) || !is_array($lang))
 // Common installer pages
 $lang = array_merge($lang, array(
 	'INSTALL_PANEL'	=> 'Inštalačný panel',
-	'SELECT_LANG'		=> 'Vyberte jazyk',
+	'SELECT_LANG'	=> 'Vyberte jazyk',
 
 	'STAGE_INSTALL'	=> 'Inštalácia phpBB',
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Úvod',
-	'INTRODUCTION_BODY'		=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie softvérové riešenie pre diskusné fóra s otvoreným zdrojovým kódom na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako, ako jeho predchodcovia, phpBB3 je bohatý na funkcie, užívateľsky prívetivý a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný sprievodca vás prevedie inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako aj prechodom do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Ak chcete získať viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
+	'INTRODUCTION_BODY'	=> 'Vitajte v phpBB3!<br /><br />phpBB® je najrozšírenejšie softvérové riešenie pre diskusné fóra s otvoreným zdrojovým kódom na svete. phpBB3 je najnovšou verziou od roku 2000. Rovnako, ako jeho predchodcovia, phpBB3 je bohatý na funkcie, užívateľsky prívetivý a plne podporovaný tímom vývojárov. phpBB3 výrazne zlepšuje to, čo bolo na phpBB2 populárne a pridáva bežne požadované funkcie, ktoré neboli súčasťou predchádzajúcich verzií. Dúfame, že prekoná vaše očakávania.<br /><br />Tento inštalačný sprievodca vás prevedie inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z minulých verzií, rovnako ako aj prechodom do phpBB3 z iného riešenia diskusného fóra (vrátane phpBB2). Ak chcete získať viac informácií odporúčame prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Ak si chcete prečítať licenčné podmienky phpBB3 alebo sa dozvedieť viac o získaní podpory a našom postoj k nej, vyberte si z príslušnej ponuky. Ak chcete pokračovať v inštalácii, vyberte príslušnú kartu v záhlaví.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'			=> 'Zo strany vývojárov je poskytovaná plná podpora bez poplatkov. Podpora zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>otázky technického typu</li><li>akékoľvek problémy spojené s potenciálnym výskytom chýb</li><li>prechod z RC (Release Candidate) verzií na stabilné verzie</li><li>konverzia z phpBB 2.0.x na phpBB3</li><li>konverzia z iných platforiem, softvérových riešení diskusných fór na platformu phpBB3 (ak chcete získať viac informácií prosím navštívte nasledovné <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fórum</a>)</li></ul><p>Používateľom beta verzií phpBB3 odporúčame, aby túto inštaláciu nahradili čistou inštaláciou poslednej verzie phpBB.</p><h2>Rozšírenia / Štýly</h2><p>Pre otázky spojené s rozšíreniami, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=451">fóra riešiace otázky rozšírení</a>.<br />Pre otázky spojené so štýlmi, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=471">fóra riešiace otázky štýlov</a>.<br /><br />Ak sa vaša otázka týka konkrétneho balíčka, vyhľadajte vo fóre tému venujúcu sa  priamo vášmu balíčku.</p><h2>Ďalšie informácie o phpBB</h2><p><br /><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Úvod do phpBB</a><br /><a href="https://www.phpbb.com/support/">Sekcia podpory</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Rýchla príručka</a><br /><br />Prípadne, aby ste sa uistili, že používate poslednú verziu a máte prístup k najnovším informáciám <a href="https://www.phpbb.com/support/">prihláste sa k odberu noviniek</a>.<br /><br />',
+	'SUPPORT_BODY'		=> 'Zo strany vývojárov je poskytovaná plná podpora bez poplatkov. Podpora zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>otázky technického typu</li><li>akékoľvek problémy spojené s potenciálnym výskytom chýb</li><li>prechod z RC (Release Candidate) verzií na stabilné verzie</li><li>konverzia z phpBB 2.0.x na phpBB3</li><li>konverzia z iných platforiem, softvérových riešení diskusných fór na platformu phpBB3 (ak chcete získať viac informácií prosím navštívte nasledovné <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fórum</a>)</li></ul><p>Používateľom beta verzií phpBB3 odporúčame, aby túto inštaláciu nahradili čistou inštaláciou poslednej verzie phpBB.</p><h2>Rozšírenia / Štýly</h2><p>Pre otázky spojené s rozšíreniami, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=451">fóra riešiace otázky rozšírení</a>.<br />Pre otázky spojené so štýlmi, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=471">fóra riešiace otázky štýlov</a>.<br /><br />Ak sa vaša otázka týka konkrétneho balíčka, vyhľadajte vo fóre tému venujúcu sa  priamo vášmu balíčku.</p><h2>Ďalšie informácie o phpBB</h2><p><br /><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Úvod do phpBB</a><br /><a href="https://www.phpbb.com/support/">Sekcia podpory</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Rýchla príručka</a><br /><br />Prípadne, aby ste sa uistili, že používate poslednú verziu a máte prístup k najnovším informáciám <a href="https://www.phpbb.com/support/">prihláste sa k odberu noviniek</a>.<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Všeobecná verejná licencia (GPL)',
@@ -91,30 +91,30 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'Súbor neexistuje',
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'K inštalácii phpBB je potrebný súbor %1$s.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'			=> 'Odporúčame, aby existoval súbor %1$s.',
-	'FILE_NOT_WRITABLE'						=> 'Súbor je chránený proti zápisu',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana súboru %1$s proti zápisu.',
+	'FILE_NOT_EXISTS'				=> 'Súbor neexistuje',
+	'FILE_NOT_EXISTS_EXPLAIN'			=> 'K inštalácii phpBB je potrebný súbor %1$s.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Odporúčame, aby existoval súbor %1$s.',
+	'FILE_NOT_WRITABLE'				=> 'Súbor je chránený proti zápisu',
+	'FILE_NOT_WRITABLE_EXPLAIN'			=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana súboru %1$s proti zápisu.',
 	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'		=> 'Odporúčame, aby bola odstránená ochrana súboru %1$s proti zápisu.',
 
-	'DIRECTORY_NOT_EXISTS'					=> 'Adresár nie je vytvorený',
+	'DIRECTORY_NOT_EXISTS'				=> 'Adresár nie je vytvorený',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN'			=> 'K inštalácii phpBB je potrebné, aby bol vytvorený adresár %1$s.',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Odporúčame, aby bol vytvorený adresár %1$s.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'Adresár je chránený proti zápisu',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana adresára %1$s proti zápisu.',
+	'DIRECTORY_NOT_WRITABLE'			=> 'Adresár je chránený proti zápisu',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'		=> 'K inštalácii phpBB je potrebné, aby bola odstránená ochrana adresára %1$s proti zápisu.',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Odporúčame, aby bola odstránená ochrana adresára %1$s proti zápisu.',
 
 	// Server requirements
-	'PHP_VERSION_REQD'					=> 'Verzia PHP',
+	'PHP_VERSION_REQD'				=> 'Verzia PHP',
 	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje PHP verzie 5.4.0 alebo vyššej.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Je potrebná funkcia PHP getimagesize()',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'		=> 'Aby phpBB pracovalo správne je potrebné, aby bola povolená funkcia getimagesize.',
-	'PCRE_UTF_SUPPORT'					=> 'Podpora PCRE UTF-8',
+	'PCRE_UTF_SUPPORT'				=> 'Podpora PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nebude pracovať, ak vaša PHP inštalácia nebude skompilovaná s podporou UTF-8 v rozšírení PCRE.',
-	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
+	'PHP_JSON_SUPPORT'				=> 'Podpora PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne je potrebné, aby váš server podporoval rozšírenie PHP JSON.',
-	'PHP_SUPPORTED_DB'					=> 'Podporované databázy',
+	'PHP_SUPPORTED_DB'				=> 'Podporované databázy',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Váš hosting musí podporovať aspoň jeden typ kompatibilného databázového riešenia. Ak v priebehu inštalácie nie je v ponuke zobrazený žiaden databázový modul, kontaktujte prosím vášho poskytovateľa hostingových služieb alebo si preštudujte dokumentáciu vášho hostingu.',
 
 	'RETEST_REQUIREMENTS'	=> 'Znovu otestovať požiadavky',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'V tejto časti musíte vyplniť všetky polia.',
 
-	'TIMEOUT_DETECTED_TITLE'		=> 'Inštalátor zistil, že vypršal časový limit nečinnosti.',
+	'TIMEOUT_DETECTED_TITLE'	=> 'Inštalátor zistil, že vypršal časový limit nečinnosti.',
 	'TIMEOUT_DETECTED_MESSAGE'	=> 'Inštalátor zistil, že vypršal časový limit nečinnosti, môžete sa pokúsiť obnoviť (znovu načítať stránku), čo môže viesť k poškodeniu dát alebo k vzniku neočakávanej chyby. Odporúčame zmeniť nastavenie časového limitu nečinnosti alebo požiť CLI.',
 ));
 
@@ -148,11 +148,11 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'		=> 'Zadajte prihlasovacie meno v rozsahu 3 až 20 znakov.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'Zdali ste neplatnú emailovú adresu.',
+	'INST_ERR_EMAIL_INVALID'	=> 'Zdali ste neplatnú emailovú adresu.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'Heslá sa nezhodujú.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Heslo je príliš dlhé. Maximálna dĺžka je 30 znakov.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Heslo je príliš krátke. Minimálna dĺžka je 6 znakov.',
-	'INST_ERR_USER_TOO_LONG'		=> 'Prihlasovacie meno je príliš dlhé. Maximálna dĺžka je 20 znakov.',
+	'INST_ERR_USER_TOO_LONG'	=> 'Prihlasovacie meno je príliš dlhé. Maximálna dĺžka je 20 znakov.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'Prihlasovacie meno je príliš krátke. Minimálna dĺžka je 3 znaky.',
 
 	//
@@ -172,26 +172,26 @@ $lang = array_merge($lang, array(
 	// Form labels
 	'DB_CONFIG'			=> 'Konfigurácia databázy',
 	'DBMS'				=> 'Typ databázy',
-	'DB_HOST'				=> 'Databázový server alebo cesta k súboru DSN',
+	'DB_HOST'			=> 'Databázový server alebo cesta k súboru DSN',
 	'DB_HOST_EXPLAIN'		=> 'Súbor DSN (Data Source Name) je vyžadovaný len pre ODBC riešenia. Pre PostgreSQL, použite "localhost" k pripojeniu na lokálny server prostredníctvom platformy UNIX a "127.0.0.1" k pripojeniu prostredníctvom TCP. Pre SQLite, uveďte úplnú cestu k súboru DSN.',
-	'DB_PORT'				=> 'Port',
+	'DB_PORT'			=> 'Port',
 	'DB_PORT_EXPLAIN'		=> 'Ponechajte prázdne. Vyplňte, len ak viete, že databázový server používa neštandartné číslo portu.',
 	'DB_PASSWORD'			=> 'Heslo pre prístup k vytvorenej databáze',
-	'DB_NAME'				=> 'Názov vytvorenej databázy',
+	'DB_NAME'			=> 'Názov vytvorenej databázy',
 	'DB_USERNAME'			=> 'Prihlasovacie meno pre prístup k vytvorenej databáze',
 	'TABLE_PREFIX'			=> 'Prefix tabuliek phpBB v databáze',
-	'TABLE_PREFIX_EXPLAIN'	=> 'Prefix musí začínať písmenom a celý môže obsahovať len písmená, čísla, prípadne podtržník.',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Prefix musí začínať písmenom a celý môže obsahovať len písmená, čísla, prípadne podtržník.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
+	'DB_OPTION_MSSQL'	=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ prostredníctvom ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ natívne ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL s rozšírením MySQLi',
-	'DB_OPTION_ORACLE'		=> 'Oracle',
+	'DB_OPTION_MYSQL'	=> 'MySQL',
+	'DB_OPTION_MYSQLI'	=> 'MySQL s rozšírením MySQLi',
+	'DB_OPTION_ORACLE'	=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
-	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
+	'DB_OPTION_SQLITE'	=> 'SQLite 2',
+	'DB_OPTION_SQLITE3'	=> 'SQLite 3',
 
 	// Errors
 	'INST_ERR_NO_DB'			=> 'Pre zvolený typ databázy nie je možné nájsť zodpovedajúci PHP modul.',
