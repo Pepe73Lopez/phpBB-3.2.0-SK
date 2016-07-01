@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'			=> 'Zo strany vývojárov je poskytovaná plná podpora bez poplatkov. Podpora zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>otázky technického typu</li><li>akékoľvek problémy spojené s potenciálnym výskytom chýb</li><li>prechod z RC (Release Candidate) verzií na stabilné verzie</li><li>konverzia z phpBB 2.0.x na phpBB3</li><li>konverzia z iných platforiem, softvérových riešení diskusných fór na platformu phpBB3 (ak chcete získať viac informácií prosím navštívte nasledovné <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fórum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	'SUPPORT_BODY'			=> 'Zo strany vývojárov je poskytovaná plná podpora bez poplatkov. Podpora zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>otázky technického typu</li><li>akékoľvek problémy spojené s potenciálnym výskytom chýb</li><li>prechod z RC (Release Candidate) verzií na stabilné verzie</li><li>konverzia z phpBB 2.0.x na phpBB3</li><li>konverzia z iných platforiem, softvérových riešení diskusných fór na platformu phpBB3 (ak chcete získať viac informácií prosím navštívte nasledovné <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fórum</a>)</li></ul><p>Používateľom beta verzií phpBB3 odporúčame, aby túto inštaláciu nahradili čistou inštaláciou poslednej verzie phpBB.</p><h2>Rozšírenia / Štýly</h2><p>Pre otázky spojené s rozšíreniami, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=451">fóra riešiace otázky rozšírení</a>.<br />Pre otázky spojené so štýlmi, použite prosím sekcie <a href="https://www.phpbb.com/community/viewforum.php?f=471">fóra riešiace otázky štýlov</a>.<br /><br />Ak sa vaša otázka týka konkrétneho balíčka, vyhľadajte vo fóre tému venujúcu sa  priamo vášmu balíčku.</p><h2>Ďalšie informácie o phpBB</h2><p><br /><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Úvod do phpBB</a><br /><a href="https://www.phpbb.com/support/">Sekcia podpory</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Rýchla príručka</a><br /><br />Prípadne, aby ste sa uistili, že používate poslednú verziu a máte prístup k najnovším informáciám <a href="https://www.phpbb.com/support/">prihláste sa k odberu noviniek</a>.<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Všeobecná verejná licencia (GPL)',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne je potrebné, aby váš server podporoval rozšírenie PHP JSON.',
 	'PHP_SUPPORTED_DB'					=> 'Podporované databázy',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Váš hosting musí podporovať aspoň jeden typ kompatibilného databázového riešenia. Ak v priebehu inštalácie nie je v ponuke zobrazený žiaden databázový modul, kontaktujte prosím vášho poskytovateľa hostingových služieb alebo si preštudujte dokumentáciu vášho hostingu.',
 
 	'RETEST_REQUIREMENTS'	=> 'Znovu otestovať požiadavky',
 
@@ -123,45 +123,45 @@ $lang = array_merge($lang, array(
 
 // General error messages
 $lang = array_merge($lang, array(
-	'INST_ERR_MISSING_DATA'		=> 'You must fill out all fields in this block.',
+	'INST_ERR_MISSING_DATA'		=> 'V tejto časti musíte vyplniť všetky polia.',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.',
+	'TIMEOUT_DETECTED_TITLE'		=> 'Inštalátor zistil, že vypršal časový limit nečinnosti.',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Inštalátor zistil, že vypršal časový limit nečinnosti, môžete sa pokúsiť obnoviť (znovu načítať stránku), čo môže viesť k poškodeniu dát alebo k vzniku neočakávanej chyby. Odporúčame zmeniť nastavenie časového limitu nečinnosti alebo požiť CLI.',
 ));
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+	'STAGE_OBTAIN_DATA'		=> 'Nastavenie parametrov inštalácie',
 
 	//
 	// Admin data
 	//
-	'STAGE_ADMINISTRATOR'	=> 'Administrator details',
+	'STAGE_ADMINISTRATOR'	=> 'Informácie o administrátorovi',
 
 	// Form labels
-	'ADMIN_CONFIG'				=> 'Administrator configuration',
-	'ADMIN_PASSWORD'			=> 'Administrator password',
-	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirm administrator password',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Please enter a password between 6 and 30 characters in length.',
-	'ADMIN_USERNAME'			=> 'Administrator username',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Please enter a username between 3 and 20 characters in length.',
+	'ADMIN_CONFIG'				=> 'Prihlasovacie údaje k účtu administrátora',
+	'ADMIN_PASSWORD'			=> 'Heslo administrátora',
+	'ADMIN_PASSWORD_CONFIRM'		=> 'Potvrdenie zadaného hesla',
+	'ADMIN_PASSWORD_EXPLAIN'		=> 'Zadajte heslo v rozsahu 6 až 30 znakov.',
+	'ADMIN_USERNAME'			=> 'Prihlasovacie meno administrátora',
+	'ADMIN_USERNAME_EXPLAIN'		=> 'Zadajte prihlasovacie meno v rozsahu 3 až 20 znakov.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'The email address you entered is invalid.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'The passwords you entered did not match.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'The password you entered is too long. The maximum length is 30 characters.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'The password you entered is too short. The minimum length is 6 characters.',
-	'INST_ERR_USER_TOO_LONG'		=> 'The username you entered is too long. The maximum length is 20 characters.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'The username you entered is too short. The minimum length is 3 characters.',
+	'INST_ERR_EMAIL_INVALID'		=> 'Zdali ste neplatnú emailovú adresu.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'Heslá sa nezhodujú.',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Heslo je príliš dlhé. Maximálna dĺžka je 30 znakov.',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Heslo je príliš krátke. Minimálna dĺžka je 6 znakov.',
+	'INST_ERR_USER_TOO_LONG'		=> 'Prihlasovacie meno je príliš dlhé. Maximálna dĺžka je 20 znakov.',
+	'INST_ERR_USER_TOO_SHORT'	=> 'Prihlasovacie meno je príliš krátke. Minimálna dĺžka je 3 znaky.',
 
 	//
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Bulletin board configuration',
-	'DEFAULT_LANGUAGE'	=> 'Default language',
-	'BOARD_NAME'		=> 'Title of the board',
-	'BOARD_DESCRIPTION'	=> 'Short description of the board',
+	'BOARD_CONFIG'		=> 'Základné nastavenia fóra',
+	'DEFAULT_LANGUAGE'	=> 'Východzí jazyk',
+	'BOARD_NAME'		=> 'Názov vášho fóra',
+	'BOARD_DESCRIPTION'	=> 'Krátky a výstižný popis vášho fóra',
 
 	//
 	// Database data
@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 	'DB_CONFIG'			=> 'Konfigurácia databázy',
 	'DBMS'				=> 'Typ databázy',
 	'DB_HOST'				=> 'Databázový server alebo cesta k súboru DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN je Data Source Name a je vyžadovaný len pre ODBC riešenia. Pre PostgreSQL, použite "localhost" k pripojeniu na lokálny server prostredníctvom platformy UNIX a "127.0.0.1" k pripojeniu prostredníctvom TCP. Pre SQLite, uveďte úplnú cestu k súboru DSN.',
+	'DB_HOST_EXPLAIN'		=> 'Súbor DSN (Data Source Name) je vyžadovaný len pre ODBC riešenia. Pre PostgreSQL, použite "localhost" k pripojeniu na lokálny server prostredníctvom platformy UNIX a "127.0.0.1" k pripojeniu prostredníctvom TCP. Pre SQLite, uveďte úplnú cestu k súboru DSN.',
 	'DB_PORT'				=> 'Port',
 	'DB_PORT_EXPLAIN'		=> 'Ponechajte prázdne. Vyplňte, len ak viete, že databázový server používa neštandartné číslo portu.',
 	'DB_PASSWORD'			=> 'Heslo pre prístup k vytvorenej databáze',
@@ -193,18 +193,18 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
-	'INST_ERR_NO_DB'				=> 'Cannot load the PHP module for the selected database type.',
-	'INST_ERR_DB_INVALID_PREFIX'	=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
-	'INST_ERR_PREFIX_TOO_LONG'		=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
-	'INST_ERR_DB_NO_NAME'			=> 'No database name specified.',
-	'INST_ERR_DB_FORUM_PATH'		=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
-	'INST_ERR_DB_CONNECT'			=> 'Could not connect to the database, see error message below.',
-	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
-	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
+	'INST_ERR_NO_DB'			=> 'Pre zvolený typ databázy nie je možné nájsť zodpovedajúci PHP modul.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'Zadaný tvar prefixu tabuliek je neplatný. Prefix musí začínať písmenom a môže obsahovať len písmená, čísla a podtržníky.',
+	'INST_ERR_PREFIX_TOO_LONG'	=> 'Zadaný prefix je príloš dlhý. Maximálna povolená dĺžka je %d znakov.',
+	'INST_ERR_DB_NO_NAME'		=> 'Nebola špecifikovaná žiadna databáza.',
+	'INST_ERR_DB_FORUM_PATH'		=> 'Súbor je umiesnený v štruktúre adresárov vášho fóra, mali by ste ho umiestniť na verejne nedostupné miesto.',
+	'INST_ERR_DB_CONNECT'		=> 'Nebolo možné sa pripojiť k databáze.',
+	'INST_ERR_DB_NO_ERROR'		=> 'Nepodarilo sa získať hlásenie o chybe.',
+	'INST_ERR_PREFIX'			=> 'Tabuľky so zadaným prefixom už existujú, vyberte inú alternatívu.',
+	'INST_ERR_DB_NO_MYSQLI'		=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
-	'INST_ERR_DB_NO_ORACLE'			=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
+	'INST_ERR_DB_NO_ORACLE'		=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
 
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
-	'SERVER_CONFIG'				=> 'Server configuration',
+	'SERVER_CONFIG'			=> 'Server configuration',
 	'SCRIPT_PATH'				=> 'Script path',
 	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>.',
 ));
@@ -225,22 +225,22 @@ $lang = array_merge($lang, array(
 // Default database schema entries...
 $lang = array_merge($lang, array(
 	'CONFIG_BOARD_EMAIL_SIG'		=> 'Thanks, The Management',
-	'CONFIG_SITE_DESC'				=> 'A short text to describe your forum',
-	'CONFIG_SITENAME'				=> 'yourdomain.com',
+	'CONFIG_SITE_DESC'			=> 'A short text to describe your forum',
+	'CONFIG_SITENAME'			=> 'yourdomain.com',
 
 	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
 
-	'FORUMS_FIRST_CATEGORY'			=> 'Your first category',
+	'FORUMS_FIRST_CATEGORY'		=> 'Your first category',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Description of your first forum.',
-	'FORUMS_TEST_FORUM_TITLE'		=> 'Your first forum',
+	'FORUMS_TEST_FORUM_TITLE'	=> 'Your first forum',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Admin',
-	'REPORT_WAREZ'					=> 'The post contains links to illegal or pirated software.',
-	'REPORT_SPAM'					=> 'The reported post has the only purpose to advertise for a website or another product.',
-	'REPORT_OFF_TOPIC'				=> 'The reported post is off topic.',
-	'REPORT_OTHER'					=> 'The reported post does not fit into any other category, please use the further information field.',
+	'REPORT_WAREZ'				=> 'The post contains links to illegal or pirated software.',
+	'REPORT_SPAM'				=> 'The reported post has the only purpose to advertise for a website or another product.',
+	'REPORT_OFF_TOPIC'			=> 'The reported post is off topic.',
+	'REPORT_OTHER'				=> 'The reported post does not fit into any other category, please use the further information field.',
 
-	'SMILIES_ARROW'					=> 'Arrow',
+	'SMILIES_ARROW'				=> 'Arrow',
 	'SMILIES_CONFUSED'				=> 'Confused',
 	'SMILIES_COOL'					=> 'Cool',
 	'SMILIES_CRYING'				=> 'Crying or Very Sad',
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ROLLING_EYES'			=> 'Rolling Eyes',
 	'SMILIES_SAD'					=> 'Sad',
 	'SMILIES_SHOCKED'				=> 'Shocked',
-	'SMILIES_SMILE'					=> 'Smile',
+	'SMILIES_SMILE'				=> 'Smile',
 	'SMILIES_SURPRISED'				=> 'Surprised',
 	'SMILIES_TWISTED_EVIL'			=> 'Twisted Evil',
 	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 
 // Common navigation items' translation
 $lang = array_merge($lang, array(
-	'MENU_OVERVIEW'		=> 'Overview',
+	'MENU_OVERVIEW'	=> 'Overview',
 	'MENU_INTRO'		=> 'Introduction',
 	'MENU_LICENSE'		=> 'License',
 	'MENU_SUPPORT'		=> 'Support',
@@ -284,12 +284,12 @@ $lang = array_merge($lang, array(
 	// Install database
 	'TASK_ADD_CONFIG_SETTINGS'			=> 'Adding configuration settings',
 	'TASK_ADD_DEFAULT_DATA'				=> 'Adding default settings to the database',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Creating database schema file',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'		=> 'Creating database schema file',
 	'TASK_SETUP_DATABASE'				=> 'Setting up database',
 	'TASK_CREATE_TABLES'				=> 'Creating tables',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registering bots',
+	'TASK_ADD_BOTS'		=> 'Registering bots',
 	'TASK_ADD_LANGUAGES'	=> 'Installing available languages',
 	'TASK_ADD_MODULES'		=> 'Installing modules',
 
@@ -313,7 +313,7 @@ $lang = array_merge($lang, array(
 	'SKIP_TASK'		=> 'Skip “%s” task',
 
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
+	'TASK_CLASS_NOT_FOUND'			=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
 ));
@@ -323,7 +323,7 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Install phpBB',
 	'CLI_UPDATE_BOARD'				=> 'Update phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
-	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
+	'CLI_INSTALL_VALIDATE_CONFIG'		=> 'Validate a configuration file',
 	'CLI_CONFIG_FILE'				=> 'Config file to use',
 	'MISSING_FILE'					=> 'Unable to access file %1$s',
 	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
@@ -334,7 +334,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'		=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Release announcement</h1>
@@ -373,8 +373,8 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods',
 
 	'UPDATE_FILE_METHOD'			=> 'File updater method',
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Download modified files in an archive',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Update files via FTP (Automatic)',
+	'UPDATE_FILE_METHOD_DOWNLOAD'		=> 'Download modified files in an archive',
+	'UPDATE_FILE_METHOD_FTP'			=> 'Update files via FTP (Automatic)',
 	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update files via direct file access (Automatic)',
 
 	// File updater archives
@@ -388,14 +388,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOT_FOUND'	=> 'No valid update directory was found, please make sure you uploaded the relevant files.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
+	'NO_UPDATE_FILES_UP_TO_DATE'		=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
 	'OLD_UPDATE_FILES'				=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
 ));
 
 // Update files
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_FILES'		=> 'Update files',
+	'STAGE_UPDATE_FILES'	=> 'Update files',
 
 	// Check files
 	'UPDATE_CHECK_FILES'	=> 'Check files to update',
@@ -409,27 +409,27 @@ $lang = array_merge($lang, array(
 	// File status
 	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Update files',
 
-	'DOWNLOAD'							=> 'Download',
-	'DOWNLOAD_CONFLICTS'				=> 'Download merge conflicts archive',
+	'DOWNLOAD'					=> 'Download',
+	'DOWNLOAD_CONFLICTS'			=> 'Download merge conflicts archive',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Search for &lt;&lt;&lt; to spot conflicts',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Download modified files archive',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Once downloaded you should unpack the archive. You will find the modified files you need to upload to your phpBB root directory within it. Please upload the files to their respective locations then. After you have uploaded all files, you may continue with the update process.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'File is already up to date.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'File not allowed to be diffed.',
-	'FILE_USED'						=> 'Information used from',			// Single file
+	'FILE_USED'					=> 'Information used from',			// Single file
 	'FILES_CONFLICT'				=> 'Conflict files',
-	'FILES_CONFLICT_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. phpBB determined that these files create conflicts if they are tried to be merged. Please investigate the conflicts and try to manually resolve them or continue the update choosing the preferred merging method. If you resolve the conflicts manually check the files again after you modified them. You are also able to choose between the preferred merge method for every file. The first one will result in a file where the conflicting lines from your old file will be lost, the other one will result in losing the changes from the newer file.',
-	'FILES_DELETED'					=> 'Deleted files',
+	'FILES_CONFLICT_EXPLAIN'			=> 'The following files are modified and do not represent the original files from the old version. phpBB determined that these files create conflicts if they are tried to be merged. Please investigate the conflicts and try to manually resolve them or continue the update choosing the preferred merging method. If you resolve the conflicts manually check the files again after you modified them. You are also able to choose between the preferred merge method for every file. The first one will result in a file where the conflicting lines from your old file will be lost, the other one will result in losing the changes from the newer file.',
+	'FILES_DELETED'				=> 'Deleted files',
 	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.',
 	'FILES_MODIFIED'				=> 'Modified files',
-	'FILES_MODIFIED_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. The updated file will be a merge between your modifications and the new file.',
-	'FILES_NEW'						=> 'New files',
+	'FILES_MODIFIED_EXPLAIN'			=> 'The following files are modified and do not represent the original files from the old version. The updated file will be a merge between your modifications and the new file.',
+	'FILES_NEW'					=> 'New files',
 	'FILES_NEW_EXPLAIN'				=> 'The following files currently do not exist within your installation. These files will be added to your installation.',
 	'FILES_NEW_CONFLICT'			=> 'New conflicting files',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'The following files are new within the latest version but it has been determined that there is already a file with the same name within the same position. This file will be overwritten by the new file.',
+	'FILES_NEW_CONFLICT_EXPLAIN'		=> 'The following files are new within the latest version but it has been determined that there is already a file with the same name within the same position. This file will be overwritten by the new file.',
 	'FILES_NOT_MODIFIED'			=> 'Not modified files',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'The following files are not modified and represent the original phpBB files from the version you want to update from.',
+	'FILES_NOT_MODIFIED_EXPLAIN'		=> 'The following files are not modified and represent the original phpBB files from the version you want to update from.',
 	'FILES_UP_TO_DATE'				=> 'Already updated files',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are already up to date and do not need to be updated.',
 	'TOGGLE_DISPLAY'				=> 'View/Hide file list',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Update database',
 
-	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful.',
+	'INLINE_UPDATE_SUCCESSFUL'	=> 'The database update was successful.',
 ));
 
 // Converter
@@ -475,13 +475,13 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Continue previously started conversion',
 
 	// Start conversion
-	'SUB_INTRO'					=> 'Introduction',
-	'CONVERT_INTRO'				=> 'Welcome to the phpBB Unified Convertor Framework',
+	'SUB_INTRO'				=> 'Introduction',
+	'CONVERT_INTRO'			=> 'Welcome to the phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'From here, you are able to import data from other (installed) board systems. The list below shows all the conversion modules currently available. If there is no convertor shown in this list for the board software you wish to convert from, please check our website where further conversion modules may be available for download.',
 	'AVAILABLE_CONVERTORS'		=> 'Available convertors',
-	'NO_CONVERTORS'				=> 'No convertors are available for use.',
+	'NO_CONVERTORS'			=> 'No convertors are available for use.',
 	'CONVERT_OPTIONS'			=> 'Options',
-	'SOFTWARE'					=> 'Board software',
+	'SOFTWARE'				=> 'Board software',
 	'VERSION'					=> 'Version',
 	'CONVERT'					=> 'Convert',
 
@@ -501,26 +501,26 @@ $lang = array_merge($lang, array(
 	'AUTHOR_NOTES'				=> 'Author notes<br />» %s',
 	'STARTING_CONVERT'			=> 'Starting conversion process',
 	'CONFIG_CONVERT'			=> 'Converting the configuration',
-	'DONE'						=> 'Done',
+	'DONE'					=> 'Done',
 	'PREPROCESS_STEP'			=> 'Executing pre-processing functions/queries',
-	'FILLING_TABLE'				=> 'Filling table <strong>%s</strong>',
+	'FILLING_TABLE'			=> 'Filling table <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Filling tables',
-	'DB_ERR_INSERT'				=> 'Error while processing <code>INSERT</code> query.',
+	'DB_ERR_INSERT'			=> 'Error while processing <code>INSERT</code> query.',
 	'DB_ERR_LAST'				=> 'Error while processing <var>query_last</var>.',
 	'DB_ERR_QUERY_FIRST'		=> 'Error while executing <var>query_first</var>.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Error while executing <var>query_first</var>, %s (“%s”).',
-	'DB_ERR_SELECT'				=> 'Error while running <code>SELECT</code> query.',
-	'STEP_PERCENT_COMPLETED'	=> 'Step <strong>%d</strong> of <strong>%d</strong>',
+	'DB_ERR_SELECT'			=> 'Error while running <code>SELECT</code> query.',
+	'STEP_PERCENT_COMPLETED'		=> 'Step <strong>%d</strong> of <strong>%d</strong>',
 	'FINAL_STEP'				=> 'Process final step',
 	'SYNC_FORUMS'				=> 'Starting to synchronise forums',
 	'SYNC_POST_COUNT'			=> 'Synchronising post_counts',
 	'SYNC_POST_COUNT_ID'		=> 'Synchronising post_counts from <var>entry</var> %1$s to %2$s.',
 	'SYNC_TOPICS'				=> 'Starting to synchronise topics',
-	'SYNC_TOPIC_ID'				=> 'Synchronising topics from <var>topic_id</var> %1$s to %2$s.',
-	'PROCESS_LAST'					=> 'Processing last statements',
+	'SYNC_TOPIC_ID'			=> 'Synchronising topics from <var>topic_id</var> %1$s to %2$s.',
+	'PROCESS_LAST'				=> 'Processing last statements',
 	'UPDATE_TOPICS_POSTED'		=> 'Generating topics posted information',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'An error occurred while generating topics posted information. You can retry this step in the ACP after the conversion process is completed.',
-	'CONTINUE_LAST'				=> 'Continue last statements',
+	'CONTINUE_LAST'			=> 'Continue last statements',
 	'CLEAN_VERIFY'				=> 'Cleaning up and verifying the final structure',
 	'NOT_UNDERSTAND'			=> 'Could not understand %s #%d, table %s (“%s”)',
 	'NAMING_CONFLICT'			=> 'Naming conflict: %s and %s are both aliases<br /><br />%s',
@@ -536,24 +536,24 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_GET_CONFIG'				=> 'Could not retrieve your board configuration.',
 	'CONV_ERROR_COULD_NOT_READ'			=> 'Unable to access/read “%s”.',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'Unable to get group authentication information.',
-	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Inconsistency in groups table detected in add_bots() - you need to add all special groups if you do it manually.',
+	'CONV_ERROR_INCONSISTENT_GROUPS'		=> 'Inconsistency in groups table detected in add_bots() - you need to add all special groups if you do it manually.',
 	'CONV_ERROR_INSERT_BOT'				=> 'Unable to insert bot into users table.',
-	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Unable to insert bot into bots table.',
+	'CONV_ERROR_INSERT_BOTGROUP'			=> 'Unable to insert bot into bots table.',
 	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Unable to insert user into user_group table.',
 	'CONV_ERROR_MESSAGE_PARSER'			=> 'Message parser error',
 	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Note to developer: you must specify $convertor[\'avatar_path\'] to use %s.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'The relative path to the source board has not been specified.',
-	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Note to developer: you must specify $convertor[\'avatar_gallery_path\'] to use %s.',
+	'CONV_ERROR_NO_GALLERY_PATH'			=> 'Note to developer: you must specify $convertor[\'avatar_gallery_path\'] to use %s.',
 	'CONV_ERROR_NO_GROUP'				=> 'Group “%1$s” could not be found in %2$s.',
 	'CONV_ERROR_NO_RANKS_PATH'			=> 'Note to developer: you must specify $convertor[\'ranks_path\'] to use %s.',
-	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Note to developer: you must specify $convertor[\'smilies_path\'] to use %s.',
+	'CONV_ERROR_NO_SMILIES_PATH'			=> 'Note to developer: you must specify $convertor[\'smilies_path\'] to use %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Note to developer: you must specify $convertor[\'upload_path\'] to use %s.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Unable to insert/update permission setting.',
 	'CONV_ERROR_PM_COUNT'				=> 'Unable to select folder pm count.',
-	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Unable to insert new forum replacing old category.',
+	'CONV_ERROR_REPLACE_CATEGORY'			=> 'Unable to insert new forum replacing old category.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Unable to insert new forum replacing old forum.',
-	'CONV_ERROR_USER_ACCESS'			=> 'Unable to get user authentication information.',
-	'CONV_ERROR_WRONG_GROUP'			=> 'Wrong group “%1$s” defined in %2$s.',
+	'CONV_ERROR_USER_ACCESS'				=> 'Unable to get user authentication information.',
+	'CONV_ERROR_WRONG_GROUP'				=> 'Wrong group “%1$s” defined in %2$s.',
 	'CONV_OPTIONS_BODY'					=> 'This page collects the data required to access the source board. Enter the database details of your former board; the converter will not change anything in the database given below. The source board should be disabled to allow a consistent conversion.',
 	'CONV_SAVED_MESSAGES'				=> 'Saved messages',
 
